@@ -1,0 +1,93 @@
+#eduPetImg{
+    display:flex;
+  align-items: center;
+}
+#education{
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+#eduImg{
+  margin-left: 5%;
+  width: 30%;
+  border-radius: 5%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+
+}
+#skills{
+    display:flex;
+    align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+#skillsType{
+    display:flex;
+    align-items: center; 
+    justify-content: space-between;
+    width: 50%;
+}
+
+.skillsH2{
+    padding:1rem;
+    border-radius: 10px;
+}
+
+.skillsH2:hover{
+    background-color: black;
+    color: white;
+    transition:  background-color 0.3s ease-in-out;
+}
+.circle{
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+    height:120px;
+    width:120px;
+    background-color:black;
+    color:white;
+    border-radius:50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+   margin:3rem;
+}
+
+#hardSkills{
+    width:70%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#softSkills{
+    width:70%;
+    display:none;
+    flex-wrap: wrap;
+
+}
+
+#experiences{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+.exp{
+    display:flex;
+    align-items: center; 
+    padding:2rem;
+    width:70%;
+    border:0.5px hsl(0, 0%, 80%)  solid;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+.expImg{
+    width:200px;
+    margin-left:30%;
+    border-radius: 5px;
+
+}
+#esiLink{
+    text-decoration: none;
+    color: black;
+}

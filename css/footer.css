@@ -1,0 +1,52 @@
+footer{
+    
+    overflow-x: hidden;
+
+    padding:2rem;
+    background-color: black;
+    color: white;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#linksFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footersc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 70%;
+}
+
+
+.linkFooter:hover{
+    color:hsl(0, 0%, 50%);
+    transition:  color 0.3s  ease;
+
+}
+
+.socialpic{
+    width:50px;
+    margin-left: 30px;
+}
+#iphoneIcon{
+    color: green;
+    text-decoration: none;
+}
+
+#copyRight{
+    font-size: 9px;
+}

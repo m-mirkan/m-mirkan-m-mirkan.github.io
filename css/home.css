@@ -1,0 +1,121 @@
+#myPic{
+    
+    width:35%;
+     height:35%;
+    margin-top:5px;
+    height: 480px;
+}
+#partie1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#content1{
+    padding-left: 10%;
+    padding-top: 3rem;
+    width: 40%;
+
+}
+
+#content1 h1{
+    color: hsl(0, 0%, 50%);
+    font-size: 32px;
+ 
+
+}
+#content1 h2{
+    font-size: 24px;
+
+}
+#welcomeP{
+    color: hsl(0, 0%, 69%);
+    
+
+}
+#contactButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  
+   background-color: black;
+   color: white;
+   border-radius: 10px;
+   width: 20%;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+
+}
+#contactButton:hover{
+    background-color:hsl(0, 0%, 50%) ;
+   transition:  background-color 0.3s  ease;
+}
+#latestworksh{
+    padding-left: 10%;  
+}
+#slider{
+   display: flex;
+   width: 90%;
+   margin-left:5%;
+}
+
+.workS{
+    width:200px;
+    height: 300px;
+    background-color:black;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8); 
+
+}
+
+.workS a{
+   text-decoration: none;
+   color: white;
+}
+
+.workS:hover{
+    background-color:hsl(0, 0%, 50%) ;
+   transition:  background-color 0.3s  ease;
+}
+
+.workSImg{
+    width: 100px;
+}
+
+#allWorks{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width:90%;
+
+    border-radius: 10px;
+    padding:2rem;
+}
+#imgWork11{
+    width: 20%;
+    height:50%;
+}
+#somePics1{
+    color: yellow;
+}
+#workName1{
+    color:yellow;
+}
+
+
+#petVideo{
+    width: 70%;
+    height:auto;
+}

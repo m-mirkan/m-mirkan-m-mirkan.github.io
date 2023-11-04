@@ -1,0 +1,28 @@
+@import url('aboutUs.css');
+@import url('footer.css');
+@import url('home.css');
+@import url('header.css');
+@import url('uiUx.css');
+
+
+body{
+  
+
+   border-box : box-sizing;
+   font-family: 'Roboto', sans-serif;
+}
+
+
+#content{
+    padding-top: 50px; 
+    position: relative; 
+    z-index: 1;
+}
+
+
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+

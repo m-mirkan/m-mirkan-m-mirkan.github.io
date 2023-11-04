@@ -1,0 +1,27 @@
+.workUiux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding:3rem;
+    border-radius: 10px;
+    margin-left:10%;
+    margin-right:10%;
+
+}
+.workUiuxV{
+    width: 70%;
+    height:auto;
+}
+.workUiuxT{
+    color: yellow;
+}
+.workUiuxL{
+    text-decoration: none;
+    color: yellow;
+}
+#latestUiux{
+    margin-left:10%;
+}
